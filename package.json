@@ -1,6 +1,6 @@
 {
   "name": "change-default",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Convert exports.default to module.exports for all .js files in specified directories",
   "bin": {
     "change-default": "bin/index.js"
