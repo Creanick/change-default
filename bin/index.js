@@ -1,3 +1,4 @@
 #! /usr/bin/env node
-
-console.log("Mnisdfgsdckasdf");
+const fs = require("fs");
+const path = require("path");
+const changeCode = require("./changeCode");
