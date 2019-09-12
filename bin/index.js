@@ -2,6 +2,7 @@
 const path = require("path");
 const changeDefault = require("./changeDefault");
 const parser = require("yargs-parser");
+const ora = require("ora");
 const options = parser(process.argv.slice(2));
 const dir = typeof options.dir === "string" ? options.dir : "";
 const mainPath = path.join(process.cwd(), dir);
@@ -23,10 +24,11 @@ if (options.version) {
   return;
 }
 
+const spinner = ora("Changing Files").start();
 changeDefault(mainPath)
   .then(result => {
-    console.log("changed successfully");
+    spinner.succeed("Changed Successfully");
   })
   .catch(err => {
-    console.log(err.message);
+    spinner.fail(err.message);
   });

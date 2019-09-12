@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Creanick/change-default#readme",
   "dependencies": {
+    "ora": "^3.4.0",
     "yargs-parser": "^14.0.0"
   }
 }
