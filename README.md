@@ -2,7 +2,7 @@
 
 ## Description
 
-Convert exports.default to module.exports for all .js files in specified directories
+Convert exports.default to module.exports for all .js files in specified directories recursively
 
 You can specify directory by --dir option
 
