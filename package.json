@@ -1,0 +1,21 @@
+{
+  "name": "change-default",
+  "version": "1.0.0",
+  "description": "This is change default",
+  "bin": {
+    "change-default": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Creanick/change-default.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Creanick/change-default/issues"
+  },
+  "homepage": "https://github.com/Creanick/change-default#readme"
+}
