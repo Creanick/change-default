@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Creanick/change-default/issues"
   },
-  "homepage": "https://github.com/Creanick/change-default#readme"
+  "homepage": "https://github.com/Creanick/change-default#readme",
+  "dependencies": {
+    "yargs-parser": "^14.0.0"
+  }
 }
