@@ -5,7 +5,7 @@ function changeCode(code) {
   const matchedSnippets = code.match(otherPatt);
   if (!isDefaultExist) return code;
   if (matchedSnippets.length !== 1) return code;
-  return code.replace(otherPatt, "module.exports=");
+  return code.replace(otherPatt, "module.exports =");
 }
 
 module.exports = changeCode;
