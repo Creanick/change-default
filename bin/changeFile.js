@@ -11,7 +11,7 @@ function changeFile(path) {
       fs.writeFileSync(path, changeCode(fileData));
       resolve("Success");
     } catch (err) {
-      reject(err);
+      resolve(err.message);
     }
   });
 }
